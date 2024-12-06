@@ -1,7 +1,7 @@
 
 # Object Detection on Images
 
-This project is a **web-based application** that allows users to upload an image and detect objects within it using a **pre-trained COCO-SSD model**. The application overlays bounding boxes, labels, and confidence scores on the detected objects, providing a seamless and interactive user experience.
+This project is a **web-based application** that allows users to upload an image and detect objects within it using a **pre-trained COCO-SSD model**. The application overlays bounding boxes, labels, and confidence scores on the detected objects, providing a seamless and interactive user experience. You can test it out <a href="https://object-detection-pk.netlify.app">here.</a>
 
 ---
 
