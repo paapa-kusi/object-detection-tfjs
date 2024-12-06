@@ -15,7 +15,7 @@ This project is a **web-based application** that allows users to upload an image
 
 - **Responsive User Interface**  
   A clean, visually appealing design with instructions and interactive elements for easy use.
-[!Main Screen](resources/menu.png)
+  ![Main Screen](resources/menu.png)
 
 ---
 
