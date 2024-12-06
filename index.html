@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection on Images</title>
+
+    <!-- Include TensorFlow.js Library-->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <!-- Include COCO-SSD Model -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <!-- Link external JavaScript file -->
+    <script src="index.js" defer></script>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #002244, #001122);
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+            margin: 20px;
+        }
+        img, canvas {
+            max-width: 100%;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Heading-->
+    <h1 style="color: white">Object Detection on Images</h1>
+    <p>Upload an image to detect objects using a pre-trained machine learning model.</p>
+    <!-- Input Image -->
+    <input type="file" id="fileInput" name="fileInput" accept="image/*">
+    <!-- Container for Image and Canvas -->
+    <div id="container">
+        <img id="image" src="" alt="Input Image">
+        <canvas id="canvas"></canvas>
+    </div>
+</body>
+</html>
